@@ -6,8 +6,8 @@ baseurl: ""
 url: http://marcvaneijk.github.io
 # baseurl: /jekyll-qck-theme
 title: Marc van Eijk
-description: Cloud Platform
-avatar: /assets/img/ogp.png
+# description: Cloud Platform
+# avatar: /assets/img/ogp.png
 language: en
 
 #
