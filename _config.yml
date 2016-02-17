@@ -2,9 +2,9 @@
 # Basic settings.
 #
 # url: http://localhost:4000
-# baseurl: ""
+baseurl: ""
 url: http://marcvaneijk.github.io
-baseurl: /jekyll-qck-theme
+# baseurl: /jekyll-qck-theme
 title: Marc van Eijk
 description: Cloud Platform
 avatar: /assets/img/ogp.png
