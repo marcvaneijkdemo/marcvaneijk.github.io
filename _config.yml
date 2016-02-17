@@ -97,7 +97,7 @@ gems:
 include: ["_pages"]
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 excerpt_separator: <!--more-->
 
