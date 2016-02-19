@@ -15,7 +15,7 @@
 
     .block {
         margin-bottom: $margin;
-                background-color: $content-background;
+        background-color: $content-background;
         h1 {
             margin: 0;
         }
@@ -30,6 +30,7 @@
         margin: 1.5em 0;
         list-style: none;
         line-height: 1.2em;
+        background-color: $content-background;
         li {
             border-bottom: 1px solid $border-color;
             &:first-child {
