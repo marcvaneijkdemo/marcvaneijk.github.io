@@ -2,6 +2,7 @@
     font-size: 0.95em;
     padding-top: $margin;
     padding-bottom: $margin;
+    background-color: $content-background;
 
     @media screen and (max-width: $mobile-width) {
         border-top: 3px solid $brand-color;
@@ -23,7 +24,6 @@
     #search {
         box-sizing: border-box;
         width: 100%;
-        background-color: $content-background;
     }
 
     ol, ul {
