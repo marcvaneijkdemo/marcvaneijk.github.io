@@ -2,7 +2,7 @@
     font-size: 2em;
     padding: 0.7em 0;
     background-color: $brand-color;
-    border-top: 3px solid rgba(#000, .5);
+    border-top: 0px;
     @media screen and (max-width: $mobile-width) {
         text-align: center;
     }
@@ -27,7 +27,7 @@
         .title {
             display: inline-block;
             color: $site-title-color;
-            font-weight: bold;
+            font-weight: normal;
             margin-top: 0.5em;
             &.slim {
                 margin-top: 0;
