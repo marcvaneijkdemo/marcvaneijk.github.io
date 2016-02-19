@@ -19,7 +19,16 @@ a {
 }
 
 hr {
-border:0px;
+    border: 0;
+    border-top: 20px solid $border-color;
+    border-bottom: 20px solid #fff;
+    margin: 1em 0;
+    &.with-margin {
+        margin: $margin 0;
+    }
+    &.with-no-margin {
+        margin: 0;
+    }
 }
 
 input, select, textarea {
