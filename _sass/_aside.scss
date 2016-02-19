@@ -30,11 +30,7 @@
         list-style: none;
         line-height: 1.2em;
         background-color: $content-background;
-        li {
-            border-bottom: 1px solid $border-color;
-            &:first-child {
-                border-top: 1px solid $border-color;
-            }
+
             a, span {
                 padding: 0.5em 0.3em;
                 display: block;
