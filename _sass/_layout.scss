@@ -17,12 +17,12 @@ $font-header-title-color: #222222;
 $font-header-title-size: 45px;
 $font-header-description-color: #999999;
 $font-header-description-size: 15px;
-$font-post-title-size: 30px;
-$font-post-title-color: #1e73be;
-$font-post-tags-size: 15px;
-$font-post-tags-color: #666666;
-$font-post-content-size: 17px;
-$font-post-content-color: #3a3a3a;
+$font-article-title-size: 30px;
+$font-article-title-color: #1e73be;
+$font-article-tags-size: 15px;
+$font-article-tags-color: #666666;
+$font-article-content-size: 17px;
+$font-article-content-color: #3a3a3a;
 $font-footer-size: 16px;
 $font-footer-color: #ffffff;
 
@@ -43,8 +43,8 @@ body {
     width: $site-width;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     }
 
 .mve-site-title {
@@ -87,6 +87,15 @@ body {
 
 .mve-article-wrapper {
     background-color: $color-content;
+}
+
+.mve-article-titel {
+    font-weight: bold;
+    font-size: $font-article-title-size;
+    a {
+        text-decoration:none;
+        color:$font-article-title-color;
+    }
 }
 
 .mve-site-widgets {
