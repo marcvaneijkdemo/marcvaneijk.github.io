@@ -19,18 +19,18 @@ $font-header-description-color: #999999;
 $font-header-description-size: 15px;
 $font-menu-pages-color: #ffffff;
 $font-menu-pages-size: 15px;
-$font-widgets-title-size: 20px;
 $font-widgets-title-color: #000000;
-$font-widgets-content-size: 17px;
+$font-widgets-title-size: 20px;
 $font-widgets-content-color: #1e73be;
-$font-article-title-size: 30px;
+$font-widgets-content-size: 17px;
 $font-article-title-color: #1e73be;
-$font-article-tags-size: 15px;
+$font-article-title-size: 30px;
 $font-article-tags-color: #666666;
-$font-article-content-size: 17px;
+$font-article-tags-size: 15px;
 $font-article-content-color: #3a3a3a;
-$font-footer-size: 16px;
+$font-article-content-size: 17px;
 $font-footer-color: #ffffff;
+$font-footer-size: 16px;
 
 body {
     margin:0;
@@ -163,7 +163,10 @@ font-size: $font-widgets-title-size;
 
 .mve-site-widget-recent-ul {
     list-style-type: none;
-text-decoration: none;
+    text-decoration: none;
+    margin: 0px;
+    color: $font-widgets-content-color;
+    font-size: $font-widgets-content-size;
 }
 
 // Footer
