@@ -52,9 +52,15 @@ body {
 }
 
 // Footer
-.mve-site-footer {
+.mve-site-footer-wrapper {
     width: 100%;
-    background-color:blue;
+    background-color: red;
     clear:both;
+    }
+
+.mve-site-footer {
+    width: $site-width;
+    margin-right: auto;
+    margin-left: auto;
 }
 
