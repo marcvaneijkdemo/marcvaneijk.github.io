@@ -120,10 +120,10 @@ body {
 .mve-site-content {
     width: $content-width;
     float: left;
-    line-height: 1.5;
 }
 
 .mve-post-content {
+        line-height: 1.5;
 }
 
 .mve-article-wrapper {
@@ -135,6 +135,7 @@ body {
 .mve-article-titel {
     font-weight: 300;
     font-size: $font-article-title-size;
+    line-height: 2.5;
     a {
         text-decoration:none;
         color:$font-article-title-color;
