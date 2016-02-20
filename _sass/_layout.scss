@@ -2,11 +2,12 @@ $site-width: 1100px;
 $content-width: 700px;
 $widgets-width: 350px;
 $default-paddig: 50px;
+$color-background: #e3e3e3;
 
 body {
     margin:0;
 	padding:0;
-	background-color: grey;
+	background-color: $color-background;
 }
 
 // Header
