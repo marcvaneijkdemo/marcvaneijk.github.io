@@ -17,8 +17,8 @@ body {
     
 .mve-site-header {
     width: $site-width;
-    	margin-right: auto;
- margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
     }
 
 // Menu
@@ -29,13 +29,15 @@ body {
 
 .mve-site-menu {
     width: $site-width;
-    	margin-right: auto;
- margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
     }
 
 // Content
 .mve-site-container {
-
+    width: $site-width;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .mve-site-content {
