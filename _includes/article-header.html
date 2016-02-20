@@ -5,6 +5,7 @@
         <div class="mve-article-titel">
             {% if include.link %}
             <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a href="{{site.github.repository_url}}/blob/gh-pages/{{page.path}}">Edit this page</a> 
             {% else %}
             {{ page.title }}
             {% endif %}
