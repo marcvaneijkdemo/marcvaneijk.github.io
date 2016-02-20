@@ -2,7 +2,7 @@
 $site-width: 1100px;
 $content-width: 700px;
 $widgets-width: 350px;
-$default-paddig: 50px;
+$default-margin: 50px;
 
 // background-colors variables
 $color-header: white;
@@ -45,8 +45,8 @@ body {
     width: $site-width;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     }
 
 .mve-site-title {
@@ -67,6 +67,7 @@ body {
 .mve-site-menu-wrapper {
     width: 100%;
     background-color: $color-menu;
+    margin-bottom: $default-margin;
     }
 
 .mve-site-menu {
@@ -118,6 +119,7 @@ body {
 .mve-article-wrapper {
     background-color: $color-content;
     padding: 40px;
+    margin-bottom: $default-margin;
 }
 
 .mve-article-titel {
@@ -130,7 +132,7 @@ body {
 }
 
 .mve-site-widgets {
-    padding-left: $default-paddig;
+    margin-left: $default-margin;
     width: $widgets-width;
     float: left;
 }
