@@ -53,7 +53,7 @@
     <div>
         {% if site.avatar %}
         <a href="{{ '/' | prepend: site.baseurl }}">
-            <img class="avatar" src="{{ site.avatar | prepend: site.baseurl }}" alt=""/>
+            <img class="" src="{{ site.avatar | prepend: site.baseurl }}" alt=""/>
         </a>
         {% endif %}
         <h1>
@@ -62,8 +62,8 @@
         </h1>
     </div>
 </header>
-<menu class="mve-menu">
-    <div class="site-menu-pages">
+<menu class="mve-site-menu">
+    <div class="mve-site-menu-pages">
             <ul>
                 {% assign pages = (site.pages | sort: 'order') %}
                 {% for page in pages %}
@@ -73,27 +73,27 @@
                 {% endfor %}
             </ul>
     </div>
-    <div class="site-menu-icons">
+    <div class="mve-site-menu-icons">
             <ul class="">
                 {% include icons.html icons=site.icons %}
             </ul>
     </div>
 </menu>
 
-<div class="site-container">
-    <div class="site-content">
+<div class="mve-site-container">
+    <div class="mve-site-content">
         {{ content }}
     </div>
 
-    <aside class="site-aside">
-        <div class="inner">
-            <div class="block">
+    <aside class="mve-site-widgets">
+        <div class="">
+            <div class="mve-site-widget-search">
                 <form action="{{ site.baseurl }}/search">
                     <input type="search" id="search" name="q" placeholder="{{ site.str_search }}" />
                 </form>
             </div>
 
-            <div class="block sticky">
+            <div class="mve-site-widget-recent">
                 <h1>{{ site.str_recent_posts }}</h1>
                 <ul>
                     {% assign posts = (site.posts | sort: 'date' | reverse) %}
@@ -106,9 +106,9 @@
     </aside>
 </div>
 
-<footer class="site-footer">
-    <div class="inner">
-        <span>Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://github.com/qckanemoto/jekyll-qck-theme">QckTheme</a></span>
+<footer class="mve-site-footer">
+    <div class="">
+        <span>Marc van Eijk @ 2016</span>
     </div>
 </footer>
 
