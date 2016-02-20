@@ -153,10 +153,13 @@ body {
 }
 
 .mve-article-edit {
+    float: right;
+}
+
+.mve-article-link {
     text-decoration: none;
     color: $font-article-meta-color;
     font-size: $font-article-meta-size;
-    float: right;
 }
 
 // Widgets
