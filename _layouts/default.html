@@ -63,7 +63,7 @@
     </div>
 </header>
 <menu class="site-menu">
-    <div class="sitem-menu-items">
+    <div class="site-menu-pages">
             <ul>
                 {% assign pages = (site.pages | sort: 'order') %}
                 {% for page in pages %}
@@ -71,6 +71,11 @@
                 <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                 {% endif %}
                 {% endfor %}
+            </ul>
+    </div>
+    <div class="site-menu-icons">
+            <ul class="icons">
+                {% include icons.html icons=site.icons %}
             </ul>
     </div>
 </menu>
@@ -88,9 +93,7 @@
                 </form>
             </div>
 
-            <ul class="icons">
-                {% include icons.html icons=site.icons %}
-            </ul>
+
             <hr class="with-no-margin margin-bottom"/>
 
             <div class="block sticky">
