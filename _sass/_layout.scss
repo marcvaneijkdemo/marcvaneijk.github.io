@@ -81,11 +81,10 @@ body {
 .mve-site-menu-pages-ul {
     margin: 0px;
     list-style-type: none;
-    float: right;
 }
 
 .mve-site-menu-pages-li {
-    float: left;
+    float: right;
     font-size: $font-menu-pages-size;
     color: $font-menu-pages-color;
     padding-right: 20px;
