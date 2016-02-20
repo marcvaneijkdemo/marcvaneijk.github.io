@@ -49,32 +49,32 @@
 </head>
 <body>
 
-<header class="site-header">
-    <div class="inner clearfix">
+<header class="mve-header">
+    <div>
         {% if site.avatar %}
         <a href="{{ '/' | prepend: site.baseurl }}">
             <img class="avatar" src="{{ site.avatar | prepend: site.baseurl }}" alt=""/>
         </a>
         {% endif %}
-        <h1 class="clearfix">
-            <a class="title {% if site.avatar == null %}slim{% endif %}" href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a>
-            <p class="description">{{ site.description }}</p>
+        <h1>
+            <a href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a>
+            <p class="">{{ site.description }}</p>
         </h1>
     </div>
 </header>
-<menu class="site-menu">
+<menu class="mve-menu">
     <div class="site-menu-pages">
             <ul>
                 {% assign pages = (site.pages | sort: 'order') %}
                 {% for page in pages %}
                 {% if page.title and page.hide != true %}
-                <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                <li><a class="" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
     </div>
     <div class="site-menu-icons">
-            <ul class="icons">
+            <ul class="">
                 {% include icons.html icons=site.icons %}
             </ul>
     </div>
