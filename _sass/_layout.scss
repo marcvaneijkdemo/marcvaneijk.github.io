@@ -17,6 +17,8 @@ $font-header-title-color: #222222;
 $font-header-title-size: 45px;
 $font-header-description-color: #999999;
 $font-header-description-size: 15px;
+$font-menu-pages-color: #ffffff;
+$font-menu-pages-size: 15px;
 $font-article-title-size: 30px;
 $font-article-title-color: #1e73be;
 $font-article-tags-size: 15px;
@@ -83,6 +85,13 @@ body {
 
 .mve-site-menu-pages-li {
     float: left;
+    font-size: $font-menu-pages-size;
+    color: $font-menu-pages-color;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
 }
 
 .mve-site-menu-icons-wrapper {
