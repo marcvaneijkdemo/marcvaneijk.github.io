@@ -1,0 +1,26 @@
+$site-max-width: 1100px;
+
+
+.mve-site-header {
+    width: $site-max-width;
+    }
+
+.mve-site-container {
+    margin: 0 auto;
+}
+
+.mve-site-content {
+    width: 70%;
+    float: left;
+}
+
+.mve-site-widgets {
+    padding-left: 50px;
+    width: 30%;
+    float: left;
+}
+
+.site-footer {
+    width: 100%;
+}
+
