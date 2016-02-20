@@ -137,6 +137,12 @@ body {
     float: left;
 }
 
+.mve-site-widget-search {
+    background-color: $color-content;
+    padding: 40px;
+    margin-bottom: $default-margin;
+}
+
 // Footer
 .mve-site-footer-wrapper {
     width: 100%;
