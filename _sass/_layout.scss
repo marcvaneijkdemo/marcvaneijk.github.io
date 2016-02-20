@@ -9,17 +9,31 @@ body {
 	background-color: grey;
 }
 
+// Header
 .mve-site-header-wrapper {
     width: 100%;
     background-color: red;
     }
-
+    
 .mve-site-header {
     width: $site-width;
     	margin-right: auto;
  margin-left: auto;
     }
 
+// Menu
+.mve-site-menu-wrapper {
+    width: 100%;
+    background-color: green;
+    }
+
+.mve-site-menu {
+    width: $site-width;
+    	margin-right: auto;
+ margin-left: auto;
+    }
+
+// Content
 .mve-site-container {
 
 }
@@ -35,6 +49,7 @@ body {
     float: left;
 }
 
+// Footer
 .mve-site-footer {
     width: 100%;
     background-color:blue;
