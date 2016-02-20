@@ -4,16 +4,27 @@ $content-width: 700px;
 $widgets-width: 350px;
 $default-paddig: 50px;
 
-// colors variables
-$color-header: white;
+// background-colors variables
+$color-header: blue;
 $color-menu: red;
 $color-background: #e3e3e3;
 $color-content: white;
-$color-footer: green;
+$color-footer: black;
 
-// font
+// fonts variables
 $font-family: "Open Sans",sans-serif;
-
+$font-header-title-color: #222222;
+$font-header-title-size: 45px;
+$font-header-description-color: #999999;
+$font-header-description-size: 15px;
+$font-post-title-size: 30px;
+$font-post-title-color: #1e73be;
+$font-post-tags-size: 15px;
+$font-post-tags-color: #666666;
+$font-post-content-size: 17px;
+$font-post-content-color: #3a3a3a;
+$font-footer-size: 16px;
+$font-footer-color: #ffffff;
 
 body {
     margin:0;
@@ -34,7 +45,10 @@ body {
     margin-left: auto;
     font-weight: bold;
     font-size: 45px;
-    a {text-decoration:none;};
+    a {
+        text-decoration:none;
+        color:black;
+    };
     }
 
 // Menu
