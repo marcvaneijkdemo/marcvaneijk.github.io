@@ -49,7 +49,7 @@
 </head>
 <body>
 
-<header class="mve-site-header">
+<div class="mve-site-header">
     <div>
         {% if site.avatar %}
         <a href="{{ '/' | prepend: site.baseurl }}">
@@ -61,8 +61,8 @@
             <p class="">{{ site.description }}</p>
         </h1>
     </div>
-</header>
-<menu class="mve-site-menu">
+</div>
+<div class="mve-site-menu">
     <div class="mve-site-menu-pages">
             <ul>
                 {% assign pages = (site.pages | sort: 'order') %}
@@ -78,14 +78,14 @@
                 {% include icons.html icons=site.icons %}
             </ul>
     </div>
-</menu>
+</div>
 
 <div class="mve-site-container">
     <div class="mve-site-content">
         {{ content }}
     </div>
 
-    <aside class="mve-site-widgets">
+    <div class="mve-site-widgets">
         <div class="">
             <div class="mve-site-widget-search">
                 <form action="{{ site.baseurl }}/search">
@@ -103,14 +103,14 @@
                 </ul>
             </div>
         </div>
-    </aside>
+    </div>
 </div>
 
-<footer class="mve-site-footer">
+<div class="mve-site-footer">
     <div class="">
         <span>Marc van Eijk @ 2016</span>
     </div>
-</footer>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="{{ '/assets/lib/garand-sticky/jquery.sticky.js' | prepend: site.baseurl }}"></script>
