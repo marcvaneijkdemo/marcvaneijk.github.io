@@ -137,6 +137,18 @@ body {
     }
 }
 
+.mve-article-tags-ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.mve-article-tags-li {
+    text-decoration: none;
+    color: $font-article-tags-color;
+    font-size: $font-article-tags-size;
+}
+
+
 // Widgets
 
 .mve-site-widgets {
