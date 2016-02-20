@@ -147,10 +147,16 @@ body {
 }
 
 .mve-article-meta-li {
-
     text-decoration: none;
     color: $font-article-meta-color;
     font-size: $font-article-meta-size;
+}
+
+.mve-article-edit {
+    text-decoration: none;
+    color: $font-article-meta-color;
+    font-size: $font-article-meta-size;
+    float: right;
 }
 
 // Widgets
