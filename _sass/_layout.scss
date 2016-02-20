@@ -27,8 +27,8 @@ $font-widgets-search-color: #666666;
 $font-widgets-search-size: 17px;
 $font-article-title-color: #1e73be;
 $font-article-title-size: 30px;
-$font-article-tags-color: #666666;
-$font-article-tags-size: 15px;
+$font-article-meta-color: #666666;
+$font-article-meta-size: 15px;
 $font-article-content-color: #3a3a3a;
 $font-article-content-size: 17px;
 $font-footer-color: #ffffff;
@@ -123,7 +123,6 @@ body {
 }
 
 .mve-post-content {
-    clear: both;
 }
 
 .mve-article-wrapper {
@@ -150,25 +149,9 @@ body {
 .mve-article-meta-li {
 
     text-decoration: none;
-    color: $font-article-tags-color;
-    font-size: $font-article-tags-size;
+    color: $font-article-meta-color;
+    font-size: $font-article-meta-size;
 }
-
-.mve-article-tags-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-.mve-article-tags-li {
-    float: left;
-    text-decoration: none;
-    color: $font-article-tags-color;
-    font-size: $font-article-tags-size;
-    padding-right: 10px;
-    margin-bottom: 10px;
-}
-
 
 // Widgets
 
