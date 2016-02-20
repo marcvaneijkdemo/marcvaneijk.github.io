@@ -163,11 +163,11 @@ font-size: $font-widgets-title-size;
 
 .mve-site-widget-recent-ul {
     list-style-type: none;
+    margin: 0px;
 }
 
 .mve-site-widget-recent-li {
     text-decoration: none;
-    margin: 0px;
     color: $font-widgets-content-color;
     font-size: $font-widgets-content-size;
 }
