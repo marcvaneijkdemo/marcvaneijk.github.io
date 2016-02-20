@@ -66,17 +66,17 @@
 <div class="mve-site-menu-wrapper">
     <div class="mve-site-menu">
     <div class="mve-site-menu-pages-wrapper">
-            <ul class="mve-site-menu-pages">
+            <ul class="mve-site-menu-pages-ul">
                 {% assign pages = (site.pages | sort: 'order') %}
                 {% for page in pages %}
                 {% if page.title and page.hide != true %}
-                <li><a class="" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                <li><a class="mve-site-menu-pages-li" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
     </div>
     <div class="mve-site-menu-icons-wrapper">
-            <ul class="mve-site-menu-icons">
+            <ul class="mve-site-menu-icons-lu">
                 {% include icons.html icons=site.icons %}
             </ul>
     </div>
