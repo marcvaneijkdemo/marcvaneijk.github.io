@@ -23,6 +23,8 @@ $font-widgets-title-color: #000000;
 $font-widgets-title-size: 20px;
 $font-widgets-content-color: #1e73be;
 $font-widgets-content-size: 17px;
+$font-widgets-search-color: #666666;
+$font-widgets-search-size: 17px;
 $font-article-title-color: #1e73be;
 $font-article-title-size: 30px;
 $font-article-tags-color: #666666;
@@ -135,6 +137,8 @@ body {
     }
 }
 
+// Widgets
+
 .mve-site-widgets {
     margin-left: $default-margin;
     width: $widgets-width;
@@ -145,6 +149,16 @@ body {
     background-color: $color-content;
     padding: 40px;
     margin-bottom: $default-margin;
+}
+
+.mve-site-widget-searchbox {
+    width: 100%; 
+    font-family: $font-family;
+    font-size: $font-widgets-search-size;
+    background-color: #fafafa;
+    border: 1px solid #cccccc;
+    color: $font-widgets-search-color;
+    padding: 10px 15px;
 }
 
 .mve-site-widget-recent {
