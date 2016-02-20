@@ -1,19 +1,27 @@
+// layout variables
 $site-width: 1100px;
 $content-width: 700px;
 $widgets-width: 350px;
 $default-paddig: 50px;
+
+// colors variables
+$color-header: blue;
+$color-menu: red:
 $color-background: #e3e3e3;
+$color-content: white;
+$color-footer: green;
+
 
 body {
     margin:0;
-	padding:0;
-	background-color: $color-background;
+    padding:0;
+    background-color: $color-background;
 }
 
 // Header
 .mve-site-header-wrapper {
     width: 100%;
-    background-color: red;
+    background-color: $color-header;
     }
     
 .mve-site-header {
@@ -25,7 +33,7 @@ body {
 // Menu
 .mve-site-menu-wrapper {
     width: 100%;
-    background-color: green;
+    background-color: $color-menu;
     }
 
 .mve-site-menu {
@@ -55,7 +63,7 @@ body {
 // Footer
 .mve-site-footer-wrapper {
     width: 100%;
-    background-color: red;
+    background-color: $color-footer;
     clear:both;
     }
 
