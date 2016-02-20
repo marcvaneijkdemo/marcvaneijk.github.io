@@ -1,4 +1,7 @@
 $site-width: 1100px;
+$content-width: 700px;
+$widgets-width: 350px;
+$default-paddig: 50px;
 
 body {
     margin:0;
@@ -10,20 +13,19 @@ body {
 .mve-site-header {
     width: $site-width;
     background-color: red;
-        margin:0;
     }
 
 .mve-site-container {
 }
 
 .mve-site-content {
-    width: 70%;
+    width: $content-width;
     float: left;
 }
 
 .mve-site-widgets {
-    padding-left: 50px;
-    width: 30%;
+    padding-left: $default-paddig;
+    width: $widgets-width;
     float: left;
 }
 
