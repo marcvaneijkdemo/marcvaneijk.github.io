@@ -30,36 +30,7 @@
                     Created {{ page.date | date: "%Y-%m-%d" }} by {{ page.author }}
                 </li>
                 {% endif %}
-
-//                {% if page.author %}
-//                <li>
-//                    <a href="{{ '/search/?a=' | append: page.author | prepend: site.baseurl }}">
-//                        <i class="mve-article-meta-li"></i>
-//                        {{ page.author }}
-//                    </a>
-//                </li>
-
-                {% if page.icons %}
-                <li>
-                    <ul class="icons">
-                        {% include icons.html icons=page.icons %}
-                    </ul>
-                </li>
-                {% endif %}
-                {% endif %}
             </ul>
         </div>
     </div>
-
-    {% if site.share_buttons and include.share != false %}
-    <div style="margin-top: 1em;">
-        {% include share-buttons.html page=page %}
-    </div>
-    {% endif %}
-
-    {% if include.eye_catch != false and page.eye_catch %}
-    <p style="text-align: center">
-        <img class="eye-catch" src="{{ page.eye_catch }}"/>
-    </p>
-    {% endif %}
 </header>
