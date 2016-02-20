@@ -1,13 +1,24 @@
 {% assign page = include.page %}
 
 <header>
-    <div class="">
+    <div>
         <div class="mve-article-titel">
             {% if include.link %}
             <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% else %}
             {{ page.title }}
             {% endif %}
+        </div>
+
+        <div>
+            <ul class="mve-article-meta-ul">
+                {% if page.date %}
+                <li>
+                    <i class="mve-article-meta-li"></i>
+                    Created {{ page.date | date: "%Y-%m-%d" }} by {{ page.author }}
+                </li>
+                {% endif %}
+            </ul>
         </div>
 
         <ul class="mve-article-tags-ul">
@@ -22,15 +33,6 @@
             {% endfor %}
         </ul>
 
-        <div>
-            <ul class="mve-article-meta-ul">
-                {% if page.date %}
-                <li>
-                    <i class="mve-article-meta-li"></i>
-                    Created {{ page.date | date: "%Y-%m-%d" }} by {{ page.author }}
-                </li>
-                {% endif %}
-            </ul>
-        </div>
+
     </div>
 </header>
