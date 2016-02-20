@@ -10,23 +10,23 @@
             {% endif %}
         </div>
 
-        <ul class="tags">
+        <ul class="mve-article-tags-ul">
             {% assign tags_num = (page.tags | size) %}
             {% if tags_num > 0 %}
-            <li><i class="fa fa-tags"></i></li>
+            <li><i class="mve-article-tags-li"></i></li>
             {% endif %}
             {% for tag in page.tags %}
             <li>
-                <a class="tag" href="{{ '/search/?t=' | append: tag | prepend: site.baseurl }}">#{{ tag }}</a>
+                <a class="mve-article-tags-li" href="{{ '/search/?t=' | append: tag | prepend: site.baseurl }}">#{{ tag }}</a>
             </li>
             {% endfor %}
         </ul>
 
-        <div class="clearfix">
-            <ul class="meta">
+        <div>
+            <ul class="mve-article-meta-ul">
                 {% if page.date %}
                 <li>
-                    <i class="fa fa-calendar"></i>
+                    <i class="mve-article-meta-li"></i>
                     {{ page.date | date: "%Y-%m-%d" }}
                 </li>
                 {% endif %}
@@ -34,7 +34,7 @@
                 {% if page.author %}
                 <li>
                     <a href="{{ '/search/?a=' | append: page.author | prepend: site.baseurl }}">
-                        <i class="fa fa-user"></i>
+                        <i class="mve-article-meta-li"></i>
                         {{ page.author }}
                     </a>
                 </li>
