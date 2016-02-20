@@ -43,13 +43,25 @@ body {
     width: $site-width;
     margin-right: auto;
     margin-left: auto;
+
+    }
+
+.mve-site-title {
     font-weight: bold;
     font-size: $font-header-title-size;
     a {
         text-decoration:none;
         color:$font-header-title-color;
-    };
     }
+}
+
+.mve-site-description {
+    font-size: $font-header-description-size;
+    a {
+        text-decoration:none;
+        color:$font-header-description-color;
+    }
+}
 
 // Menu
 .mve-site-menu-wrapper {
