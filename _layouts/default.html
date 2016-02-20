@@ -64,7 +64,8 @@
         </div>
     </div>
 </div>
-<div class="mve-site-menu">
+<div class="mve-site-menu-wrapper">
+    <div class="mve-site-menu">
     <div class="mve-site-menu-pages">
             <ul>
                 {% assign pages = (site.pages | sort: 'order') %}
@@ -79,6 +80,7 @@
             <ul class="">
                 {% include icons.html icons=site.icons %}
             </ul>
+    </div>
     </div>
 </div>
 
