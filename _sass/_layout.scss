@@ -155,6 +155,7 @@ body {
 }
 
 .mve-article-meta-li {
+    clear: left;
     text-decoration: none;
     color: $font-article-tags-color;
     font-size: $font-article-tags-size;
