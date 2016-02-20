@@ -9,15 +9,19 @@ body {
 	background-color: grey;
 }
 
-
-.mve-site-header {
-    width: $site-width;
+.mve-site-header-wrapper {
+    width: 100%;
     background-color: red;
     }
 
-.mve-site-container {
-	margin-right: auto;
+.mve-site-header {
+    width: $site-width;
+    	margin-right: auto;
  margin-left: auto;
+    }
+
+.mve-site-container {
+
 }
 
 .mve-site-content {
