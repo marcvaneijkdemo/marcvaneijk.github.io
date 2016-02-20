@@ -54,6 +54,10 @@ body {
     float: left;
 }
 
+.mve-article-wrapper {
+    background-color: $color-content;
+}
+
 .mve-site-widgets {
     padding-left: $default-paddig;
     width: $widgets-width;
