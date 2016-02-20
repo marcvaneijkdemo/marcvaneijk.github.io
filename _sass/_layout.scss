@@ -122,8 +122,11 @@ body {
     float: left;
 }
 
-.mve-article-wrapper {
+.mve-post-content {
     clear: both;
+}
+
+.mve-article-wrapper {
     background-color: $color-content;
     padding: 40px;
     margin-bottom: $default-margin;
