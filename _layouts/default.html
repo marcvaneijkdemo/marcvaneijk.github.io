@@ -66,8 +66,8 @@
 </div>
 <div class="mve-site-menu-wrapper">
     <div class="mve-site-menu">
-    <div class="mve-site-menu-pages">
-            <ul>
+    <div class="mve-site-menu-pages-wrapper">
+            <ul class="mve-site-menu-pages">
                 {% assign pages = (site.pages | sort: 'order') %}
                 {% for page in pages %}
                 {% if page.title and page.hide != true %}
@@ -76,8 +76,8 @@
                 {% endfor %}
             </ul>
     </div>
-    <div class="mve-site-menu-icons">
-            <ul class="">
+    <div class="mve-site-menu-icons-wrapper">
+            <ul class="mve-site-menu-icons">
                 {% include icons.html icons=site.icons %}
             </ul>
     </div>
