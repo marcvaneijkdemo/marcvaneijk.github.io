@@ -137,6 +137,18 @@ body {
     }
 }
 
+.mve-article-meta-ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.mve-article-meta-li {
+
+    text-decoration: none;
+    color: $font-article-tags-color;
+    font-size: $font-article-tags-size;
+}
+
 .mve-article-tags-ul {
     list-style-type: none;
     padding: 0px;
@@ -144,19 +156,6 @@ body {
 
 .mve-article-tags-li {
     float: left;
-    text-decoration: none;
-    color: $font-article-tags-color;
-    font-size: $font-article-tags-size;
-}
-
-.mve-article-meta-ul {
-        clear: both;
-    list-style-type: none;
-    padding: 0px;
-}
-
-.mve-article-meta-li {
-
     text-decoration: none;
     color: $font-article-tags-color;
     font-size: $font-article-tags-size;
