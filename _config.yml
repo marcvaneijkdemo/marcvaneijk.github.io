@@ -98,7 +98,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-highlighter: rouge
+highlighter: pygments
+
 
 excerpt_separator: <!--more-->
 
